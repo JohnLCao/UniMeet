@@ -24,10 +24,10 @@ class UsersController < ApplicationController
   # GET /users/1/connect
   def connect
     # improve by returnin match if satisfying some number of conditions
-    @users = User.where(age: (@user.age - 3)..(@user.age + 3))
-                 .where(bool_drink: (@user.bool_drink - 2)..(@user.bool_drink + 2))
-                 .where(party: (@user.party - 2)..(@user.party + 2))
-                 .where(study: (@user.study - 2)..(@user.study + 2))
+    @users = User.where(age: (@user.age - 5)..(@user.age + 5))
+                 .where(bool_drink: (@user.bool_drink - 5)..(@user.bool_drink + 5))
+                 .where(party: (@user.party - 5)..(@user.party + 5))
+                 .where(study: (@user.study - 5)..(@user.study + 5))
                  .where(commute: !@user.commute)
                  .where.not(id: @user.id)
   end
