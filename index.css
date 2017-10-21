@@ -1,4 +1,5 @@
 .Sparkle {
+	text-align: center;
 	
 	font-size:100px;
 	font-family:impact;
@@ -8,4 +9,10 @@
              url(http://www.myspacehippo.com/files/glitterbacks/bg345.gif) repeat;
  background: -o-linear-gradient(transparent, transparent);
  -webkit-background-clip: text;
+}
+
+
+body
+{
+background: #fb6c14; 
 }
