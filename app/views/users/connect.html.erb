@@ -1,6 +1,4 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Listing Users</h1>
+<h1>Listing User Matches</h1>
 
 <table>
   <thead>
@@ -26,15 +24,9 @@
         <td><%= user.party %></td>
         <td><%= user.study %></td>
         <td><%= user.commute %></td>
-        <td><%= link_to 'Show', user %></td> 
-        <td><%= link_to 'Edit', edit_user_path(user) %></td> 
-        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td> 
-        <td><%= link_to 'Connects', connect_path(user)%></td> 
       </tr>
     <% end %>
   </tbody>
 </table>
-
+<td><%= link_to 'Back', users_path %></td>
 <br>
-
-<%= link_to 'New User', new_user_path %>

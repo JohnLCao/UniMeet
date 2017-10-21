@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :edit, :update, :destroy]
+  before_action :set_user, only: [:show, :edit, :update, :destroy, :connect]
 
   # GET /users
   # GET /users.json
@@ -19,6 +19,17 @@ class UsersController < ApplicationController
 
   # GET /users/1/edit
   def edit
+  end
+
+  # GET /users/1/connect
+  def connect
+    # improve by returnin match if satisfying some number of conditions
+    @users = User.where(age: (@user.age - 3)..(@user.age + 3))
+                 .where(bool_drink: (@user.bool_drink - 2)..(@user.bool_drink + 2))
+                 .where(party: (@user.party - 2)..(@user.party + 2))
+                 .where(study: (@user.study - 2)..(@user.study + 2))
+                 .where(commute: !@user.commute)
+                 .where.not(id: @user.id)
   end
 
   # POST /users
