@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @user.age %>
+</p>
+
+<p>
+  <strong>Bio:</strong>
+  <%= @user.bio %>
+</p>
+
+<p>
+  <strong>Bool drink:</strong>
+  <%= @user.bool_drink %>
+</p>
+
+<p>
+  <strong>Party:</strong>
+  <%= @user.party %>
+</p>
+
+<p>
+  <strong>Study:</strong>
+  <%= @user.study %>
+</p>
+
+<p>
+  <strong>Commute:</strong>
+  <%= @user.commute %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
