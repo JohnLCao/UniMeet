@@ -1,31 +1,15 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*Story*
+Team thunderturtles submission for hack harvard 2017. 
 
-Things you may want to cover:
+*Purposes*
+Make it easier for people to make friends and have things to talk about with others who share their lifestyle and habits.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+*To Use*
+Install Rails, Ruby. 
+Boot up rails server
+go to localhost:3000
 
 *Future Features:*
 == These are things we would like to apply to the 
@@ -37,6 +21,10 @@ web app in the future ==
 - Other -
 * email verification to make sure strictly students are using this.
 
+<<<<<<< HEAD
 * Navigation on everything 
 
 * Matching based on actual 16 personalities 
+=======
+* Navigation 
+>>>>>>> 5ae3cb4cedf301539a801a36af2f30e0bd98e5cd
