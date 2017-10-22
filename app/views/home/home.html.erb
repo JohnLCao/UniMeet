@@ -9,7 +9,7 @@
 	</div>
 	<hr>
 	<% if session[:user_id] %>
-		<%= link_to "Chats", all_chats_path(session[:user_id]) %> |
-		<%= link_to "Logout", logout_path, method: :delete %>
+		<%= link_to "Chats", all_chats_path(session[:user_id]), {style: 'font-size: 17px;'} %> |
+		<%= link_to "Logout", logout_path, {style: 'font-size: 17px;', method: :delete} %>
 	<% end %>
 </div>
