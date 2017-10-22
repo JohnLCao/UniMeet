@@ -37,4 +37,6 @@ web app in the future ==
 - Other -
 * email verification to make sure strictly students are using this.
 
-* Navigation 
+* Navigation on everything 
+
+* Matching based on actual 16 personalities 
