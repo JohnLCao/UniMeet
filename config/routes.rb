@@ -8,6 +8,9 @@ Rails.application.routes.draw do
   get "/login" => "sessions#new", as: :login
   delete "/logout" => "sessions#destroy", as: :logout
 
+  get "/all_chats/:id" => "chats#all_chats", as: :all_chats
+  get "/chat" => "chats#chat", as: :one_chat
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

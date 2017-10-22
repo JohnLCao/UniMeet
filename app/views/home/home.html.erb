@@ -8,5 +8,6 @@
 </div>
 <hr>
 <% if session[:user_id] %>
+	<%= link_to "Chats", all_chats_path(session[:user_id]) %> |
 	<%= link_to "Logout", logout_path, method: :delete %>
 <% end %>
