@@ -15,14 +15,15 @@ ActiveRecord::Schema.define(version: 20171021064541) do
 
   create_table "users", force: :cascade do |t|
     t.string   "name"
+    t.string   "password_digest"
     t.integer  "age"
     t.text     "bio"
     t.integer  "bool_drink"
     t.integer  "party"
     t.integer  "study"
     t.boolean  "commute"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
 
 end

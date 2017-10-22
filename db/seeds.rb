@@ -15,6 +15,7 @@ User.destroy_all
 	party = rand(11)
 	study = rand(11)
 	commute = rand(2) 
-	User.create!(name: name, age: age, bio: bio, bool_drink: bool_drink, party: party, study: study, commute: commute)
-	
+	User.create!(name: name, password: "pass", age: age, bio: bio, bool_drink: bool_drink, party: party, study: study, commute: commute)	
 end
+
+User.create!(name: "admin", password: "password")
