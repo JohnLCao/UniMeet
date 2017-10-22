@@ -26,3 +26,15 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+*Future Features:*
+== These are things we would like to apply to the 
+web app in the future ==
+
+- On Hompage - 
+* "Find your school" feature
+
+- Other -
+* email verification to make sure strictly students are using this.
+
+* Navigation 
