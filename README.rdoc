@@ -4,7 +4,7 @@
 Team thunderturtles submission for hack harvard 2017. 
 
 *Purposes*
-Make it easier for people to make friends and have things to talk about with others who share their lifestyle and habits.
+Help people create and maintain friendship through sharing of their lifestyle and habits
 
 *To Use*
 Install Rails, Ruby. 
